@@ -26,6 +26,10 @@ public class Exception
         {
             System.out.println("Array Index Out Of Bounds Error");
         }
+        catch(StringIndexOutOfBoundsException g)
+        {
+            System.out.println("String Index Out Of Bounce");
+        }
         finally
         {
             System.out.println("End of Programm");
